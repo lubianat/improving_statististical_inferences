@@ -2,14 +2,14 @@
 theta_H0 <-0.5 
 
 # Set total trials
-total_trials <-200 
+total_trials <-365*24
 #set successes
-successes <-115
+successes <-365*24
 
 #Set the alpha for the Beta distribution for the prior
 a_prior<-1
 #Set the beta for the Beta distribution for the prior
-bprior<-1 
+bprior<-1
 
 a_likelihood<-successes+1 #Calculate the alpha for the Beta distribution for the likelihood
 b_likelihood<-total_trials-successes+1 #Calculate the beta for the Beta distribution for the likelihood

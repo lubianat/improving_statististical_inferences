@@ -1,5 +1,5 @@
-n<-20 #set total trials
-x<-10 #set successes
+n<-365*24 #set total trials
+x<-365*24 #set successes
 aprior<-1 #Set the alpha for the Beta distribution for the prior
 bprior<-1 #Set the beta for the Beta distribution for the prior
 
